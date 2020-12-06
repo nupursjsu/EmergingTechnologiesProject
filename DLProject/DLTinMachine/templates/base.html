@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breast Cancer Prediction</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    html, body {
+        margin: 0;
+        height: 100%;
+    }
+</style>
+
+<body style="
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+">
+
+
+<center><h1 class="text-capitalize"><kbd>Breast Cancer Prediction</kbd></h1></center>
+{% block content %}
+
+    <center><a href="https://github.com/LokeshVadlamudi/BreastCancerCDN/issues/1">
+        Check the image urls on GITHUB CDN</a>
+    </center>
+
+    <center>
+        <form action="homer" method="post">
+            <br>
+            <label>Image URL:</label><br>
+            <input type="text" name="url"><br>
+            <br>
+            <button class="btn-success btn" type="submit" value="Submit">Upload</button>
+        </form>
+    </center>
+
+
+
+    <br>
+    <center>
+        <h3>Predicting using Multi Instance Learning.</h3>
+    </center>
+{% endblock %}
+
+
+{% block result %}
+
+{% endblock %}
+
+</body>
+</html>

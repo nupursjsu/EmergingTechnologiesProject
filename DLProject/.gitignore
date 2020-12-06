@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+DLTinMachine/__pycache__
+images/
+env/
+/denv/

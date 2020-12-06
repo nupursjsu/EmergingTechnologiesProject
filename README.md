@@ -32,7 +32,7 @@ Hence, we used this transfer learning model for deployment and making future inf
 
 **We have used tensorflow serving, docker and kubernetes to deploy our model. We created two docker images one for our Django app and another for our model for deployment.**
 
-[Deployment Code Link](https://github.com/nupursjsu/EmergingTechnologiesProject/tree/main/DLProject)
+[Django application code](https://github.com/nupursjsu/EmergingTechnologiesProject/tree/main/DLProject)
 
 Following is the system architecture we have used:
 

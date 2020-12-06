@@ -18,7 +18,17 @@ So, we thought of experimenting a bit and used another breast cancer dataset fro
 
 Though Attention-based Deep Multiple Instance Learning is applied in a wide range of medical imaging applications. Surprisingly, it didn't work for the breast cancer dataset. So we thought of using a pretrained model (transfer learning technique) for breast cancer classification on BreakHis dataset to see if it can achieve better accuracy.
 
-[TransferLearning_on_BreastCancer_TFX.ipynb](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TransferLearning_on_BreastCancer_TFX.ipynb) - This colab demonstrates the use of a pretrained model "DenseNet201" to perform classification on breast cancer histopathological images (BreakHis). The model achieved an accurcay of '94%' which is quite good. Hence, we used this model for deployment and making future inferences.
+[TransferLearning_on_BreastCancer_TFX.ipynb](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TransferLearning_on_BreastCancer_TFX.ipynb) - This colab demonstrates the use of a pretrained model "DenseNet201" to perform classification on breast cancer histopathological images (BreakHis). The model achieved an accurcay of '94%' which is quite good. 
+
+Following table summarizes all the experiments and observations.
+
+| Technique  | Accuracy |
+| ------------- | ------------- |
+| Attention-based MIL on BreakHis dataset (Pytorch implementation)  | 69%  |
+| Attention-based MIL on Breast Cancer histopathological images (different dataset, data augmentation and Keras implementation)  | 73%  |
+| Transfer Learning on BreakHis dataset (using DenseNet201)  | 94%  |
+
+Hence, we used this transfer learning model for deployment and making future inferences.
 
 **We have used tensorflow serving, docker and kubernetes to deploy our model. We created two docker images one for our Django app and another for our model for deployment.**
 

@@ -26,6 +26,8 @@ Though Attention-based Deep Multiple Instance Learning is applied in a wide rang
 
 Following is the system architecture we have used:
 
+![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/System%20architecture.png)
+
 
 
 [Project Presenation in PDF format](https://github.com/LokeshVadlamudi/DLprojectSJSU/blob/master/TinMachine_DLProject.pdf)

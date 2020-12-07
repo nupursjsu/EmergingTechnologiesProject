@@ -6,7 +6,12 @@
 
 In this project we have used two techniques which are attention-based MIL and transfer learning to detect cancer in breast cancer histopathological images dataset.
 
-[MIL_on_BreastCancer_Pytorch.ipynb](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/MIL_on_BreastCancer_Pytorch.ipynb) - This colab demonstrates the pytorch implementation of the Attention-based Multi Instance Learning on breast cancer histopathological images to detect breast cancer. The dataset used is [BreakHis](https://www.kaggle.com/kritika397/breast-cancer-dataset-from-breakhis). The model yielded an accuracy of '69%' which is very low for medical domain where most precision is required. In general this dataset is difficult due to high variability of slides and small number of cases.
+[MIL_on_BreastCancer_Pytorch.ipynb](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/MIL_on_BreastCancer_Pytorch.ipynb) - This colab demonstrates the pytorch implementation of the Attention-based Multi Instance Learning on breast cancer histopathological images to detect breast cancer. The dataset used is [BreakHis](https://www.kaggle.com/kritika397/breast-cancer-dataset-from-breakhis). Following diagram shows the approach used:
+
+![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/Attention-based%20MIL%20approach.png)
+
+
+The model yielded an accuracy of '69%' which is very low for medical domain where most precision is required. In general this dataset is difficult due to high variability of slides and small number of cases.
 
 This is also backed by the following paper which we later came across.
 
@@ -37,6 +42,18 @@ Hence, we used this transfer learning model for deployment and making future inf
 Following is the system architecture we have used:
 
 ![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/System%20architecture.png)
+
+Following are the UI screenshots for our application:
+
+Homepage
+
+![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/Web%20homepage.png)
+
+Prediction
+
+![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/Web%20prediction.png)
+
+
 
 
 

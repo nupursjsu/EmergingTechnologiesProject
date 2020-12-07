@@ -30,7 +30,7 @@ Following table summarizes all the experiments and observations.
 
 Hence, we used this transfer learning model for deployment and making future inferences.
 
-**We have used tensorflow serving, docker and kubernetes to deploy our model. We created two docker images one for our Django app and another for our model for deployment.**
+**We have used Django to build our web application and tensorflow serving, docker and kubernetes to deploy our model. We created two docker images one for our Django app and another for our model for deployment.**
 
 [Django application code](https://github.com/nupursjsu/EmergingTechnologiesProject/tree/main/DLProject)
 

@@ -2,7 +2,13 @@
 
 **Project Name** : Histopathological Image Analysis using attention-based MIL and Transfer Learning techniques
 
-**Team Members** : Lokesh Vadlamudi, Nupur Yadav, Chetan Kulkarni
+**Team Members and their Contributions** :
+
+| Team Member  | Contribution(s) |
+| ------------- | ------------- |
+| Chetan Kulkarni  | Attention-based MIL on BreakHis dataset (Pytorch implementation), model deployment  |
+| Lokesh Vadlamudi  | Attention-based MIL on Breast Cancer histopathological images (different dataset, data augmentation and Keras implementation), model deployment  |
+| Nupur Yadav  | Transfer Learning on BreakHis dataset (using DenseNet201), model deployment |
 
 In this project we have used two techniques which are attention-based MIL and transfer learning to detect cancer in breast cancer histopathological images dataset.
 
@@ -58,6 +64,9 @@ Prediction
 
 
 [Project Presenation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/EmergingTechnologiesPresentation.pdf)
+
+[Project Report in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Report_Histopathological_Image_Analysis.pdf)
+
 
 
 

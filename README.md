@@ -40,7 +40,7 @@ Following is the system architecture we have used:
 
 
 
-[Project Presenation in PDF format](https://github.com/LokeshVadlamudi/DLprojectSJSU/blob/master/TinMachine_DLProject.pdf)
+[Project Presenation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/EmergingTechnologiesPresentation.pdf)
 
 
 

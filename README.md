@@ -33,10 +33,10 @@ https://hub.docker.com/repository/docker/lokv007/dldjango
   **stop all containers:**
   docker kill $(docker ps -q)
 
-  **remove all containers**
+  **remove all containers:**
   docker rm $(docker ps -a -q)
 
-  **remove all docker images**
+  **remove all docker images:**
   docker rmi $(docker images -q)
 
 

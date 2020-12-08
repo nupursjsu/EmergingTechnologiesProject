@@ -63,7 +63,7 @@ Prediction
 
 
 
-[Project Presenation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_presentation.pdf)
+[Project Presentation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_presentation.pdf)
 
 [Project Report in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Report_Histopathological_Image_Analysis.pdf)
 

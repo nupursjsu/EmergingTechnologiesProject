@@ -7,7 +7,7 @@
 | Team Member  | Contribution(s) |
 | ------------- | ------------- |
 | Chetan Kulkarni  | Attention-based MIL on BreakHis dataset (Pytorch implementation), model deployment  |
-| Lokesh Vadlamudi  | Attention-based MIL on Breast Cancer histopathological images (different dataset, data augmentation and Keras implementation), model deployment  |
+| Lokesh Vadlamudi  | Attention-based MIL on Breast Cancer histopathological (IDC) images (IDC dataset, data augmentation and Keras implementation), model deployment  |
 | Nupur Yadav  | Transfer Learning on BreakHis dataset (using DenseNet201 with weights pre-trained on ImageNet), model deployment |
 
 In this project we have used two techniques which are attention-based MIL and transfer learning to detect cancer in breast cancer histopathological images dataset.
@@ -36,7 +36,7 @@ Following table summarizes all the experiments and observations.
 | Technique  | Accuracy |
 | ------------- | ------------- |
 | Attention-based MIL on BreakHis dataset (Pytorch implementation)  | 69%  |
-| Attention-based MIL on Breast Cancer histopathological images (different dataset, data augmentation and Keras implementation)  | 73%  |
+| Attention-based MIL on Breast Cancer histopathological (IDC) images (IDC dataset, data augmentation and Keras implementation)  | 73%  |
 | Transfer Learning on BreakHis dataset (using DenseNet201)  | 94%  |
 
 Hence, we used this transfer learning model for deployment and making future inferences.

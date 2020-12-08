@@ -1,4 +1,4 @@
-# Project is deployed using TFX tensorflow serving, docker and kubernetes
+# Model is deployed using TFX tensorflow serving, docker and kubernetes
 
 **Project Name** : Histopathological Image Analysis using attention-based MIL and Transfer Learning techniques
 

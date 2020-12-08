@@ -1,3 +1,45 @@
+# Steps To Run
+1. Install Docker Desktop Application
+https://www.docker.com/products/docker-desktop
+
+2. Start the Application that you downloaded.
+
+3. Pull the Tensorflow Serving Image
+
+**CMD**
+  docker pull lokv007/saved11:latest
+ 
+https://hub.docker.com/repository/docker/lokv007/saved11
+
+3.1 Now, run the tfx serving docker image that you just pulled.
+
+**CMD**
+  docker run -p 8501:8501 lokv008/saved11
+
+4. Pull the django web application 
+
+**CMD:** 
+  docker pull lokv007/dldjango:latest
+
+https://hub.docker.com/repository/docker/lokv007/dldjango
+
+4.1 Now, run the django docker image that you just pulled.
+
+**CMD**
+  docker run -p 8000:8000 lokv008/dldjango
+
+**after running**
+
+**stop all containers:**
+docker kill $(docker ps -q)
+
+**remove all containers**
+docker rm $(docker ps -a -q)
+
+**remove all docker images**
+docker rmi $(docker images -q)
+
+
 # Model is deployed using TFX tensorflow serving, docker and kubernetes
 
 **Project Name** : Histopathological Image Analysis using attention-based MIL and Transfer Learning techniques

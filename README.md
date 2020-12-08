@@ -11,19 +11,19 @@ https://www.docker.com/products/docker-desktop
  
 https://hub.docker.com/repository/docker/lokv007/saved11
 
-3.1 Now, run the tfx serving docker image that you just pulled.
+4. Now, run the tfx serving docker image that you just pulled.
 
 **CMD**
     docker run -p 8501:8501 lokv008/saved11
 
-4. Pull the django web application 
+5. Pull the django web application 
 
 **CMD:** 
     docker pull lokv007/dldjango:latest
 
 https://hub.docker.com/repository/docker/lokv007/dldjango
 
-4.1 Now, run the django docker image that you just pulled.
+6. Now, run the django docker image that you just pulled.
 
 **CMD**
     docker run -p 8000:8000 lokv008/dldjango

@@ -1,6 +1,10 @@
-# View the TFX pipeline
+# View the end to end TFX interactive context for the transfer learning colab
 
-https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFrecord.ipynb
+https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFXpipeline.ipynb
+
+COLAB
+
+https://colab.research.google.com/github/LokeshVadlamudi/EmergingTechnologiesML/blob/master/TFXpipeline.ipynb
 
 # Steps To Run
 1. Install Docker Desktop Application
@@ -113,6 +117,9 @@ Prediction
 
 [Project Report in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Report_Histopathological_Image_Analysis.pdf)
 
+
+**Note
+The web application has been taken down to save cloud computing costs. Please use docker images mentioned above to run the application locally. 
 
 
 

@@ -101,6 +101,10 @@ Prediction
 
 ![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/Web%20prediction.png)
 
+**Note
+The web application has been taken down to save cloud computing costs. Please use docker images mentioned above to run the application locally. 
+
+
 
 # View the end to end TFX interactive context for the transfer learning colab
 
@@ -116,9 +120,6 @@ https://colab.research.google.com/github/LokeshVadlamudi/EmergingTechnologiesML/
 
 [Project Report in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Report_Histopathological_Image_Analysis.pdf)
 
-
-**Note
-The web application has been taken down to save cloud computing costs. Please use docker images mentioned above to run the application locally. 
 
 
 

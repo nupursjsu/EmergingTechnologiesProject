@@ -1,3 +1,9 @@
+# View the tfx pipeline
+
+https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFrecord.ipynb
+
+or TFXpipeline directory.
+
 # Steps To Run
 1. Install Docker Desktop Application
 https://www.docker.com/products/docker-desktop

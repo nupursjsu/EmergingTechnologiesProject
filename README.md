@@ -1,11 +1,3 @@
-# View the end to end TFX interactive context for the transfer learning colab
-
-https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFXpipeline.ipynb
-
-COLAB
-
-https://colab.research.google.com/github/LokeshVadlamudi/EmergingTechnologiesML/blob/master/TFXpipeline.ipynb
-
 # Steps To Run
 1. Install Docker Desktop Application
 https://www.docker.com/products/docker-desktop
@@ -110,6 +102,13 @@ Prediction
 ![](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Images/Web%20prediction.png)
 
 
+# View the end to end TFX interactive context for the transfer learning colab
+
+https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFXpipeline.ipynb
+
+COLAB
+
+https://colab.research.google.com/github/LokeshVadlamudi/EmergingTechnologiesML/blob/master/TFXpipeline.ipynb
 
 
 

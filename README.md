@@ -1,3 +1,5 @@
+# We have implemented TFX interactive context and have deployed model using TFX tensorflow serving, docker and kubernetes
+
 # Steps To Run
 1. Install Docker Desktop Application
 https://www.docker.com/products/docker-desktop
@@ -40,7 +42,6 @@ https://hub.docker.com/repository/docker/lokv007/dldjango
   docker rmi $(docker images -q)
 
 
-# Model is deployed using TFX tensorflow serving, docker and kubernetes
 
 **Project Name** : Histopathological Image Analysis using attention-based MIL and Transfer Learning techniques
 

@@ -109,15 +109,11 @@ The web application has been taken down to save cloud computing costs. Please us
 
 # View the end to end TFX interactive context for the transfer learning colab
 
-https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFXpipeline.ipynb
-
-COLAB
-
-https://colab.research.google.com/github/LokeshVadlamudi/EmergingTechnologiesML/blob/master/TFXpipeline.ipynb
+[TFX Pipeline](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/TFXpipeline/TFXpipeline.ipynb)
 
 
 
-[Project Presentation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_presentation.pdf)
+[Project Presentation in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Presentation.pdf)
 
 [Project Report in PDF format](https://github.com/nupursjsu/EmergingTechnologiesProject/blob/main/Project_Report_Histopathological_Image_Analysis.pdf)
 
